@@ -1,0 +1,42 @@
+/* General styles */
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Game area */
+  #gameArea {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #e0f7fa;
+  }
+  
+  /* Basket (player-controlled element) */
+  .basket {
+    position: absolute;
+    bottom: 10px;
+    width: 100px;
+    height: 20px;
+    background: #ff5722;
+  }
+  
+  /* Falling objects */
+  .object {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #4caf50;
+    border-radius: 50%;
+  }
+  
+  /* Score display */
+  .score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
